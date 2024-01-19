@@ -1,0 +1,77 @@
+@import 'partials/variables';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $font-stack;
+  font-size: $font-size;
+  color: $font-color;
+  background-color: $background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 20px 0 10px;
+}
+
+h3 {
+  color: $primary-color;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  border-bottom: 2px solid $primary-color;
+  padding-bottom: 10px;
+  h1 {
+    font-size: 2em;
+    color: $primary-color;
+  }
+}
+
+.contact {
+  margin: 10px 0;
+  a {
+    color: $primary-color;
+  }
+}
+
+.skills ul {
+  padding: 0px 20px;
+}
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: $color-white;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  background-color: $primary-color;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
